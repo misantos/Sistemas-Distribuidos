@@ -1,0 +1,15 @@
+digraph "org.jgroups:jgroups:jar:5.0.0.Final" { 
+	"org.jgroups:jgroups:jar:5.0.0.Final" -> "org.apache.logging.log4j:log4j-core:jar:2.13.3:compile (optional) " ; 
+	"org.jgroups:jgroups:jar:5.0.0.Final" -> "org.apache.logging.log4j:log4j-api:jar:2.13.3:compile (optional) " ; 
+	"org.jgroups:jgroups:jar:5.0.0.Final" -> "org.slf4j:slf4j-api:jar:1.7.30:compile (optional) " ; 
+	"org.jgroups:jgroups:jar:5.0.0.Final" -> "org.wildfly.openssl:wildfly-openssl:jar:1.1.1.Final:compile (optional) " ; 
+	"org.jgroups:jgroups:jar:5.0.0.Final" -> "org.testng:testng:jar:6.14.3:test" ; 
+	"org.jgroups:jgroups:jar:5.0.0.Final" -> "org.jboss.byteman:byteman-bmunit:jar:4.0.12:test" ; 
+	"org.wildfly.openssl:wildfly-openssl:jar:1.1.1.Final:compile (optional) " -> "org.wildfly.openssl:wildfly-openssl-java:jar:1.1.1.Final:compile (optional) " ; 
+	"org.wildfly.openssl:wildfly-openssl:jar:1.1.1.Final:compile (optional) " -> "org.wildfly.openssl:wildfly-openssl-linux-x86_64:jar:1.1.1.Final:compile (optional) " ; 
+	"org.testng:testng:jar:6.14.3:test" -> "com.beust:jcommander:jar:1.72:test" ; 
+	"org.testng:testng:jar:6.14.3:test" -> "org.apache-extras.beanshell:bsh:jar:2.0b6:test" ; 
+	"org.jboss.byteman:byteman-bmunit:jar:4.0.12:test" -> "org.jboss.byteman:byteman:jar:4.0.12:test" ; 
+	"org.jboss.byteman:byteman-bmunit:jar:4.0.12:test" -> "org.jboss.byteman:byteman-submit:jar:4.0.12:test" ; 
+	"org.jboss.byteman:byteman-bmunit:jar:4.0.12:test" -> "org.jboss.byteman:byteman-install:jar:4.0.12:test" ; 
+ } 
